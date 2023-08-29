@@ -23,7 +23,7 @@ model = dict(
         num_outs=5),
     bbox_head=dict(
         type='ATSSQHead',
-        num_classes=1,
+        num_classes=3,
         in_channels=256,
         stacked_convs=4,
         feat_channels=256,
@@ -49,7 +49,7 @@ model = dict(
             type='CrossEntropyLoss', use_sigmoid=True, loss_weight=1.0)),
     bbox_prehead=dict(
         type='QFDetPreHead',
-        num_classes=1,
+        num_classes=3,
         in_channels=256,
         stacked_convs=4,
         feat_channels=256,
