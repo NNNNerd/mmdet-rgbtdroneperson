@@ -118,5 +118,5 @@ data = dict(
 evaluation = dict(interval=1, metric='bbox')
 
 # optimizer
-optimizer = dict(type='SGD', lr=0.01, momentum=0.9, weight_decay=0.0001)   # 0.005 for 4 gpus
+optimizer = dict(type='SGD', lr=0.01, momentum=0.9, weight_decay=0.0001)
 work_dir = 'work_dir/atss_hf_r50_fpn/vtuav'
