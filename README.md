@@ -46,5 +46,14 @@ Please refer to our [github page](https://nnnnerd.github.io/RGBTDronePerson/).
 
 ## Citation
 ```
-.
+@article{ZHANG202361,
+title = {Drone-based RGBT tiny person detection},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+volume = {204},
+pages = {61-76},
+year = {2023},
+doi = {https://doi.org/10.1016/j.isprsjprs.2023.08.016},
+url = {https://www.sciencedirect.com/science/article/pii/S0924271623002319},
+author = {Yan Zhang and Chang Xu and Wen Yang and Guangjun He and Huai Yu and Lei Yu and Gui-Song Xia}
+}
 ```
