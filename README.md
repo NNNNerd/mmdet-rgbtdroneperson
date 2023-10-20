@@ -5,6 +5,12 @@ Official code for "Drone-based RGBT Tiny Person Detection".
 
 ## Installation
 Please refer to <https://github.com/open-mmlab/mmdetection/tree/2.x>
+### Environment
+```
+mmdet 2.25.1
+mmcv-full 1.6.1
+pytorch 1.10.0
+```
 
 ## Trained Model
 ### On RGBTDronePerson
